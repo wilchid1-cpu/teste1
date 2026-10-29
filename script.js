@@ -3,4 +3,10 @@ const novamensagem = document.getElementById("mensagem");
 const novamensagem2 = document.getElementById("title"); 
     novamensagem2.textContent = "5+5=" + (5+5);
 const mudanca = document.getElementById("aprensentação");
-   mudanca .textContent = "Testando o script.js";
+
+function troca(){
+
+   mudanca .textContent = "Venha colaborar o nosso projeto";
+
+}
+troca();
